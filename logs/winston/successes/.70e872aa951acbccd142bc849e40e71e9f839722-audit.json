@@ -9,6 +9,16 @@
             "date": 1707562078775,
             "name": "F:\\edulife\\edulife-server\\logs\\winston\\successes\\pc-2024-10-02-16-success.log",
             "hash": "3e3e6a9e9c6a2751b239779ddf28086b999f155dd7dbf635004884f360fd76e5"
+        },
+        {
+            "date": 1707566390362,
+            "name": "F:\\edulife\\edulife-server\\logs\\winston\\successes\\pc-2024-10-02-17-success.log",
+            "hash": "bc9e33ad05a98e2d8145c1fdce4231a394bcd4fd95c1ea7f5b1b82f3c0e10557"
+        },
+        {
+            "date": 1707567000355,
+            "name": "F:\\edulife\\edulife-server\\logs\\winston\\successes\\pc-2024-10-02-18-success.log",
+            "hash": "d76946789c695e5e2fc8e9f8c94311087081f8ffcc36544ec9f0dc28fe33c0f8"
         }
     ],
     "hashType": "sha256"
