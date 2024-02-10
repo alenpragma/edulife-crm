@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\edulife\\edulife-server\\logs\\winston\\errors\\.56f98b2e86e2593a572610abd59fb2badbd19b6e-audit.json",
+    "files": [
+        {
+            "date": 1707562078790,
+            "name": "F:\\edulife\\edulife-server\\logs\\winston\\errors\\pc-2024-10-02-16-error.log",
+            "hash": "057237bf0e86f9bd3d5657b4832bb55bc1b7575d661947fb4af63e1e718d53a4"
+        }
+    ],
+    "hashType": "sha256"
+}
