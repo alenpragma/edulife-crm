@@ -37,7 +37,7 @@ const getAllData = catchAsync(async (req: Request, res: Response) => {
     statusCode: httpStatus.OK,
     success: true,
     message: 'Phone Call Log Retrieved Succesfully',
-    data: result.data,
+    data: result,
   });
 });
 
