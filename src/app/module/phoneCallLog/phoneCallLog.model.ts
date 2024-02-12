@@ -13,15 +13,10 @@ const phoneCallLogSchema = new Schema(
       type: String,
       required: [true, 'date is required'],
     },
-    description: {
-      type: String,
-      required: [true, 'Description is required'],
-    },
     nextFollowUpDate: {
       type: String,
       required: [true, 'Next Follow Up Date is required'],
     },
-    duration: { type: String },
     note: {
       type: String,
       required: [true, 'note is required'],
@@ -30,6 +25,8 @@ const phoneCallLogSchema = new Schema(
       type: String,
       required: [true, 'Call type is required'],
     },
+    description: { type: String },
+    duration: { type: String },
   },
   { timestamps: true }
 );

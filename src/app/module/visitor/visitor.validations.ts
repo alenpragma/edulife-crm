@@ -14,28 +14,20 @@ const create = z.object({
     phone: z.string({
       required_error: 'Phone is required',
     }),
-    gender: z.string({
-      required_error: 'Gender is required',
-    }),
     personsCount: z.string({
       required_error: 'Persons Count is required',
-    }),
-    inTime: z.string({
-      required_error: 'inTime is required',
-    }),
-    outTime: z.string({
-      required_error: 'outTime is required',
-    }),
-    note: z.string({
-      required_error: 'note is required',
     }),
     date: z.string({
       required_error: 'note is required',
     }),
+    gender: z.string(),
+    inTime: z.string(),
+    outTime: z.string(),
+    note: z.string(),
     address: z.string(),
   }),
 });
 
-export const PatientValidation = {
+export const visitorValidation = {
   create,
 };

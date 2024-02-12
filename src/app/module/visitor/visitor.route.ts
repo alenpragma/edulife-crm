@@ -1,9 +1,15 @@
 import express from 'express';
+import validateRequest from '../../middlewares/validateRequest';
 import { visitorController } from './visitor.controller';
+import { visitorValidation } from './visitor.validations';
 
 const router = express.Router();
 
-router.post('/', visitorController.create);
+router.post(
+  '/',
+  validateRequest(visitorValidation.create),
+  visitorController.create
+);
 
 router.get('/:id', visitorController.getSingleDataById);
 

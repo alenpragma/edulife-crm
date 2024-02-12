@@ -36,6 +36,6 @@ const create = z.object({
   }),
 });
 
-export const PatientValidation = {
+export const PostalDispatch = {
   create,
 };

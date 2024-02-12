@@ -13,19 +13,25 @@ const patientSchema = new Schema(
     },
     meetingWith: {
       type: String,
-      required: [true, 'meetingWith is required'],
+      required: [true, 'Meeting With is required'],
     },
-    gender: {
+    phone: {
       type: String,
-      required: [true, 'gender is required'],
+      required: [true, 'Phone is required'],
     },
-    phone: { type: String },
-    personsCount: { type: String },
+    personsCount: {
+      type: String,
+      required: [true, 'Persons count is required'],
+    },
+    date: {
+      type: String,
+      required: [true, 'Date is required'],
+    },
+    gender: { type: String },
     inTime: { type: String },
     outTime: { type: String },
     note: { type: String },
     address: { type: String },
-    date: { type: String },
   },
   { timestamps: true }
 );

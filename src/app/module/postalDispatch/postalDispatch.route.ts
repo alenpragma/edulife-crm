@@ -1,9 +1,15 @@
 import express from 'express';
+import validateRequest from '../../middlewares/validateRequest';
 import { postalDispatchController } from './postalDispatch.controller';
+import { PostalDispatch } from './postalDispatch.validations';
 
 const router = express.Router();
 
-router.post('/', postalDispatchController.create);
+router.post(
+  '/',
+  validateRequest(PostalDispatch.create),
+  postalDispatchController.create
+);
 
 router.get('/:id', postalDispatchController.getSingleDataById);
 
