@@ -28,7 +28,7 @@ const postalDispatchSchema = new Schema(
   { timestamps: true }
 );
 
-export const postalDispatch = model<IPostalDispatch, PostalDispatchModal>(
+export const PostalDispatch = model<IPostalDispatch, PostalDispatchModal>(
   'postal-dispatch',
   postalDispatchSchema
 );

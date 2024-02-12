@@ -27,6 +27,6 @@ const create = z.object({
   }),
 });
 
-export const PatientValidation = {
+export const phoneCallLogValidation = {
   create,
 };
